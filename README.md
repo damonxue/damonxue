@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=DamonXue.code(Hello,World!);神即是道, 道法自然, 如来;&font=Fira%20Code&center=true&width=380&height=50">
-</p>
+
+![code](https://readme-typing-svg.herokuapp.com/?lines=DamonXue.code(Hello,World!);神即是道,道法自然,如来;&font=Fira%20Code&center=true&width=380&height=50)
+
 
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/contribution-snake/github-contribution-grid-snake.svg" /></div>
 
@@ -8,7 +8,8 @@
 </em></p>
 
 
-![GitHub Thaiane](https://img.shields.io/github/followers/damonxue?label=follow&style=social)<img src="https://visitor-badge.glitch.me/badge?page_id=damonxue.profile" alt="访客统计" />
+![GitHub Thaiane](https://img.shields.io/github/followers/damonxue?label=follow&style=social)
+![访客](https://visitor-badge.glitch.me/badge?page_id=damonxue.profile)
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
