@@ -4,6 +4,8 @@
 
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/contribution-snake/github-contribution-grid-snake.svg" /></div>
 
+![profile-3d](./profile-3d-contrib/profile-gitblock.svg)
+
 <p><em>Software Enginner at GuoJiZhuang </a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer Consultant at <a href="https://www.jupai.net">jupai.net</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
@@ -25,5 +27,3 @@ const DamonXue = {
   hobby: ["Read", "Code"]
 }
 ```
-
-<img height="120px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=damonxue&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=7&exclude_repo=comp426,Redventures-Movie-Quotes&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" alt="DamonXue Tools"/>
