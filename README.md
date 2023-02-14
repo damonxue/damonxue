@@ -9,6 +9,7 @@
 </em></p>
 
 ![GitHub Thaiane](https://img.shields.io/github/followers/damonxue?label=follow&style=social)
+
 ![访客](https://visitor-badge.glitch.me/badge?page_id=damonxue.profile)
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
