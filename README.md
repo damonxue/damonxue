@@ -17,7 +17,7 @@
 ```javascript
 const DamonXue = {
   lastName: "xue",
-  code: [JAVA, Javascript, Golang, Lua, Python],
+  code: [JAVA, Javascript, Golang],
   tools: [JAVA,Spring-Boot,Spring-Cloud],
   architecture: ["microservices", "event-driven", "design pattern"],
   communities: {
