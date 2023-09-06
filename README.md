@@ -19,7 +19,7 @@ const DamonXue = {
   tools: [JAVA,Spring-Boot,Spring-Cloud],
   architecture: ["microservices", "event-driven", "design pattern"],
   communities: {
-      apache: "Apache ShenYu Contributor",
+      apache: "Apache ShenYu Comitter",
   },
   hobby: ["Read", "Code"]
 }
