@@ -1,15 +1,6 @@
 
 ![code](https://readme-typing-svg.herokuapp.com/?lines=DamonXue.code(Hello,World!);神即是道,道法自然,如来;&font=Fira%20Code&center=true&width=380&height=50)
 
-<p><em>Software Enginner at `Rock Home Town` </a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer Consultant at `JP`<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-</em></p>
-
-![GitHub Thaiane](https://img.shields.io/github/followers/damonxue?label=follow&style=social)
-
-![访客](https://visitor-badge.glitch.me/badge?page_id=damonxue.profile)
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
-
 <img src="./github-metrics.svg" alt="Metrics" width="100%" />
 
 
