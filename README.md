@@ -11,7 +11,7 @@
 ![访客](https://visitor-badge.glitch.me/badge?page_id=damonxue.profile)
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
-
+<img src="./github-metrics.svg" alt="Metrics" width="100%">
 ```javascript
 const DamonXue = {
   lastName: "xue",
