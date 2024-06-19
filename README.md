@@ -5,8 +5,8 @@
 ```javascript
 const DamonXue = {
   lastName: "xue",
-  code: [JAVA, Javascript, Rust],
-  tools: [JAVA,Spring-Boot,Spring-Cloud, RUST],
+  code: [JAVA, Javascript, Python，Rust],
+  tools: [JAVA,Spring-Boot,Spring-Cloud, torch, fastAPI, Rust ffi],
   architecture: ["microservices", "event-driven", "design pattern"],
   communities: {
       apache: "Apache ShenYu Comitter",
