@@ -303,7 +303,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     output +=
         "> <p align=\"center\">This README is <b>auto-generated</b> with Rust and Actions</p>";
 
-    let mut file = File::read("README.md").expect("Failed to create README.md");
+    let mut file = File::open("README.md").expect("Failed to create README.md");
     file.write_all(output.as_bytes())
         .expect("Failed to write to README.md");
 
