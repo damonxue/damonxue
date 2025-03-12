@@ -299,11 +299,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     output += &format!("Last updated: {}\n", now.format("%Y-%m-%d %H:%M:%S"));
     output += "```\n\n";
 
-    output += "> [!NOTE]\n";
+    /* output += "> [!NOTE]\n";
     output +=
-        "> <p align=\"center\">This README is <b>auto-generated</b> with Rust and Actions</p>";
+        "> <p align=\"center\">This README is <b>auto-generated</b> with Rust and Actions</p>"; */
 
-    let mut file = File::open("README.md").expect("Failed to create README.md");
+    let mut file = std::fs::OpenOptions::new()
+        .write(true)
+        .truncate(true)
+        .open("README.md")
+        .expect("Failed to open README.md for writing");
     file.write_all(output.as_bytes())
         .expect("Failed to write to README.md");
 
