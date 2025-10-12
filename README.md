@@ -4,7 +4,7 @@
 >                       .ld;.         ,KWl  '0K,                 ;KKOk:. .;'       
 >                     .cOd.           ;XNc   oNo                 .xXl:k0dkO,       
 >                    ;kO:.            lNK,   '00'                 ,00,.lKX:        ╭────────────────────╮
-> .:do;            .d0d.             .xWx.    cKo.            .....;00; ',         │ Followers│ 50      │
+> .:do;            .d0d.             .xWx.    cKo.            .....;00; ',         │ Followers│ 49      │
 > .xNNNk;         :0O;               ;KNc     .oKc         ,oOOOOOOkKWKc.     ..   ╰────────────────────╯
 >  .':kNNOl,.   .xKd.               .dWk.      .xKl.     .d0x;'..';:ld00,    'kl   
 >      ,oOXX0dcl00:                 ;KX:        .xXx.   'kO,          ..    .x0'   ╭────────────────────╮
@@ -53,6 +53,6 @@ Go           [▓░░░░░░░░░░░░░░░░░░░] 0.5%
 2025-09-20 02:26 | Issues          | gitcoinco-n/gitcoin
 ------------------------------------------------------------
 
-Last updated: 2025-10-11 12:46:01
+Last updated: 2025-10-12 01:59:09
 ```
 
