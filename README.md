@@ -4,7 +4,7 @@
 >                       .ld;.         ,KWl  '0K,                 ;KKOk:. .;'       
 >                     .cOd.           ;XNc   oNo                 .xXl:k0dkO,       
 >                    ;kO:.            lNK,   '00'                 ,00,.lKX:        ╭────────────────────╮
-> .:do;            .d0d.             .xWx.    cKo.            .....;00; ',         │ Followers│ 49      │
+> .:do;            .d0d.             .xWx.    cKo.            .....;00; ',         │ Followers│ 48      │
 > .xNNNk;         :0O;               ;KNc     .oKc         ,oOOOOOOkKWKc.     ..   ╰────────────────────╯
 >  .':kNNOl,.   .xKd.               .dWk.      .xKl.     .d0x;'..';:ld00,    'kl   
 >      ,oOXX0dcl00:                 ;KX:        .xXx.   'kO,          ..    .x0'   ╭────────────────────╮
@@ -54,6 +54,6 @@ Go           [▓░░░░░░░░░░░░░░░░░░░] 0.5%
 2025-10-13 09:31 | Watch           | xknk/costomize-pdf
 ------------------------------------------------------------
 
-Last updated: 2025-10-18 12:48:02
+Last updated: 2025-10-19 02:09:05
 ```
 
