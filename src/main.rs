@@ -6,22 +6,6 @@ use std::env;
 use std::fs::File;
 use std::io::Write;
 
-fn get_github_activity(
-    username: &str,
-    token: &str,
-) -> Result<Vec<Value>, Box<dyn std::error::Error>> {
-    let url = format!("https://api.github.com/users/{}/events/public", username);
-    let client = Client::new();
-
-    client
-        .get(&url)
-        .header("Authorization", format!("token {}", token))
-        .header("User-Agent", "Rust GitHub Action")
-        .send()?
-        .json::<Vec<Value>>()
-        .map_err(|e| e.into())
-}
-
 fn get_all_languages(username: &str, token: &str) -> Vec<(String, f64)> {
     let url = format!("https://api.github.com/users/{}/repos", username);
     let client = Client::new();
@@ -81,19 +65,6 @@ fn create_ascii_bar(percentage: f64, width: usize) -> String {
     }
 
     format!("[{}]", bar)
-}
-
-fn format_activity(activity: &Value) -> String {
-    let event_type = activity["type"].as_str().unwrap_or("").replace("Event", "");
-    let repo = activity["repo"]["name"].as_str().unwrap_or("");
-    let created_at = activity["created_at"].as_str().unwrap_or("");
-    let dt = DateTime::parse_from_rfc3339(created_at).unwrap_or_else(|_| Utc::now().into());
-    format!(
-        "{:<16} | {:<15} | {}",
-        dt.format("%Y-%m-%d %H:%M"),
-        event_type,
-        repo
-    )
 }
 
 fn download_font() {
@@ -223,7 +194,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let token = env::var("GITHUB_TOKEN").expect("GITHUB_TOKEN not set");
 
     // Step 3: Fetch GitHub data
-    let activities = get_github_activity(username, &token)?;
     let top_languages = get_all_languages(username, &token);
     let github_stats = get_github_stats(username, &token);
     let github_followers = get_github_followers(username, &token);
@@ -284,24 +254,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     output += "```\n";
     output += &format_github_stats(&github_stats);
     output += "\n```\n\n";
-
-    output += "#### 🔥 Activity\n";
-    output += "```\n";
-    output += &"-".repeat(60);
-    output += "\n";
-    for activity in activities.iter().take(5) {
-        output += &format_activity(activity);
-        output += "\n";
-    }
-    output += &"-".repeat(60);
-    output += "\n\n";
+    
     let now: DateTime<Local> = Local::now();
     output += &format!("Last updated: {}\n", now.format("%Y-%m-%d %H:%M:%S"));
     output += "```\n\n";
-
-    /* output += "> [!NOTE]\n";
-    output +=
-        "> <p align=\"center\">This README is <b>auto-generated</b> with Rust and Actions</p>"; */
 
     let mut file = std::fs::OpenOptions::new()
         .write(true)
